@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Read(//home/gabriel/.nvm/**)",
+      "Read(//home/gabriel/.bun/**)",
+      "Bash(sudo apt-get install -y nodejs npm)",
+      "Bash(npm -v)"
+    ]
+  }
+}

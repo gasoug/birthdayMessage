@@ -1,0 +1,83 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #08080f;
+  padding: 2rem 1.5rem;
+}
+
+.canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.messageBox {
+  width: 100%;
+  max-width: 560px;
+  background: #0e0e1c;
+  border: 1px solid #1e1e30;
+  border-radius: 1.25rem;
+  padding: 2.5rem 2rem;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.03),
+    0 30px 80px rgba(196, 161, 255, 0.08);
+  animation: fadeSlideIn 0.6s ease both;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text {
+  font-family: 'Georgia', serif;
+  font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+  line-height: 1.9;
+  color: #e8e0f0;
+  min-height: 2rem;
+}
+
+/* Cursor piscante */
+.cursor {
+  display: inline-block;
+  color: #c4a1ff;
+  font-weight: 300;
+  animation: blink 0.9s step-end infinite;
+  margin-left: 1px;
+}
+
+.cursorHidden {
+  display: inline-block;
+  color: transparent;
+  margin-left: 1px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* Rodapé com carinho — aparece após a mensagem ser completa */
+.footer {
+  margin-top: 2rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: #4a4060;
+  letter-spacing: 0.5px;
+  animation: fadeIn 1.2s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

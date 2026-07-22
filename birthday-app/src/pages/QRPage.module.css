@@ -1,0 +1,172 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: #08080f;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #ff9a9e, #c4a1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #6b6480;
+  font-size: 0.95rem;
+  font-family: system-ui, sans-serif;
+}
+
+.qrWrapper {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 20px 60px rgba(196, 161, 255, 0.15);
+}
+
+.urlSection {
+  width: 100%;
+}
+
+.label {
+  display: block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #c4a1ff;
+  margin-bottom: 0.6rem;
+}
+
+.inputRow {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  background: #12121f;
+  border: 1px solid #2a2a3f;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1rem;
+  color: #f0ece4;
+  font-size: 0.85rem;
+  font-family: system-ui, monospace;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: #c4a1ff;
+}
+
+.btn {
+  background: linear-gradient(135deg, #ff9a9e, #c4a1ff);
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1.4rem;
+  color: #08080f;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+  transition: opacity 0.2s, transform 0.1s;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.instructions {
+  width: 100%;
+  background: #0e0e1c;
+  border: 1px solid #1e1e30;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.instructionsTitle {
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #c4a1ff;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.instructionsList {
+  list-style: none;
+  counter-reset: steps;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.instructionsList li {
+  counter-increment: steps;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: #8a8099;
+  line-height: 1.5;
+}
+
+.instructionsList li::before {
+  content: counter(steps);
+  min-width: 1.4rem;
+  height: 1.4rem;
+  background: #1e1e30;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: #c4a1ff;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.instructionsList code {
+  background: #1a1a2e;
+  color: #ff9a9e;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.3rem;
+  font-size: 0.78rem;
+  font-family: monospace;
+}
