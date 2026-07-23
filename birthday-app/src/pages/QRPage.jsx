@@ -31,7 +31,7 @@ export default function QRPage() {
       <div className={styles.card}>
         <div className={styles.header}>
           <div className={styles.icon}>🎂</div>
-          <h1 className={styles.title}>Feliz Aniversário</h1>          
+          <h1 className={styles.title}>Repi bardei tiu iu</h1>          
         </div>
 
         <div className={styles.qrWrapper}>
@@ -46,22 +46,8 @@ export default function QRPage() {
           )}
         </div>
 
-        <div className={styles.urlSection}>
-          <label className={styles.label}>URL da página da surpresa</label>
-          <div className={styles.inputRow}>
-            <input
-              className={styles.input}
-              type="text"
-              value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="birthday-message-cj5e.vercel.app"
-            />
-            <button className={styles.btn} onClick={handleGenerate}>
-              Gerar
-            </button>
-          </div>
-        </div>        
+        
+        
       </div>
     </div>
   )

@@ -15,7 +15,7 @@ import styles from './MessagePage.module.css'
 const ROTEIRO = [
   { t: 'pause', ms: 800 },
 
-  { t: 'type', text: 'Oi, ' },
+  { t: 'type', text: 'Relou, ' },
   { t: 'type', text: 'Bruna' },
   { t: 'type', text: '!' },
 
@@ -42,32 +42,30 @@ const ROTEIRO = [
   { t: 'type', text: 'doida às vezes' },
   { t: 'pause', ms: 600 },
   { t: 'backspace', count: 14 },
-  { t: 'type', text: 'importante pra mim.' },
+  { t: 'type', text: 'importante pra mim e uma ótima amiga' },
 
   { t: 'newline' },
   { t: 'newline' },
   { t: 'pause', ms: 1200 },
 
-  { t: 'type', text: 'Quando se sentir incapaz ou quando pensamentos ruins sobre você surgirem, lembre-se de tudo que já superou, do que é essencial pra você e entenda que sim, você é e sempre foi muito ' },  
-  { t: 'type', text: 'foda' },
-  { t: 'pause', ms: 400 },
-  { t: 'backspace', count: 4 },
-  { t: 'type', text: 'capaz.' },
+  { t: 'type', text: 'Quando se sentir incapaz ou quando pensamentos ruins sobre você surgirem, ignora!' },  
+  { t: 'backspace', count: 7 },
+  { t: 'type', text: 'lembre-se de tudo que já superou, do que é essencial pra você e entenda que sim, você é e sempre foi muito capaz.' },  
 
   { t: 'newline' },
   { t: 'newline' },
   { t: 'type', text: 'Que você permaneça sendo luz na vida das pessoas que te perturbam,' }, 
   { t: 'pause', ms: 400 },
   { t: 'backspace', count: 10 },
-  { t: 'type', text: 'cercam, que seus desejos e objetivos se realizem, e que você seja feliz da forma que almeja e além do que merece neste novo ciclo. Que Deus te ençaboe'},  
+  { t: 'type', text: 'cercam, que seus desejos e objetivos se realizem, e que você seja feliz da forma que almeja e além do que merece neste novo ciclo. Que Deus te ençaboe.'},  
   { t: 'pause', ms: 500 },
-  { t: 'backspace', count: 10 },
+  { t: 'backspace', count: 11 },
   { t: 'type', text: 'venha te abençoar cada dia mais, hoje e sempre!' },
   { t: 'pause', ms: 1000 },
   { t: 'newline' },
   { t: 'type', text: 'Feliz vida, Bruna 💜' },
   { t: 'newline' },
-  { t: 'type', text: 'Pode curtir sua festa agora :D' }, 
+  { t: 'type', text: 'Pode curtir sua festa agora 👽' }, 
   { t: 'backspace', count: 30 },
   { t: 'pause', ms: 600 },
   { t: 'done' },
@@ -195,7 +193,7 @@ export default function MessagePage() {
 
       {done && (
         <div className={styles.footer}>
-          com todo o carinho 💝
+          Feito com muito esforço e dedicação 👨🏻‍💻
         </div>
       )}
     </div>
