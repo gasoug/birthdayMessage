@@ -4,7 +4,7 @@ import styles from './QRPage.module.css'
 
 function getSurpriseUrl() {
   const base = window.location.href.split('#')[0]
-  return base + '#/surprise'
+  return base + '#/password'
 }
 
 export default function QRPage() {
@@ -36,13 +36,16 @@ export default function QRPage() {
 
         <div className={styles.qrWrapper}>
           {url && (
-            <QRCodeCanvas
-              value={url}
-              size={240}
-              level="H"
-              bgColor="#ffffff"
-              fgColor="#08080f"
-            />
+            <div className={styles.qrInner}>
+              <QRCodeCanvas
+                value={url}
+                size={240}
+                level="H"
+                bgColor="#ffffff"
+                fgColor="#08080f"
+              />
+              <div className={styles.qrLogo}>B</div>
+            </div>
           )}
         </div>
 
