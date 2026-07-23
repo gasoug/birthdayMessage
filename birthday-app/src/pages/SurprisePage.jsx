@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import styles from './SurprisePage.module.css'
 
-const IMAGEM = '/public/monkey.png'
+const IMAGEM = '/monkey.png'
 
 export default function SurprisePage() {
   const navigate = useNavigate()
