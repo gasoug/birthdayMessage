@@ -2,11 +2,7 @@ import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import styles from './SurprisePage.module.css'
 
-// ============================================================
-// PERSONALIZE AQUI
-// Coloque sua imagem na pasta /public e troque o nome abaixo
-// ============================================================
-const IMAGEM = '/monkey.png'
+const IMAGEM = '/public/monkey.png'
 
 export default function SurprisePage() {
   const navigate = useNavigate()
