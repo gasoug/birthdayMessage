@@ -6,7 +6,7 @@ import styles from './SurprisePage.module.css'
 // PERSONALIZE AQUI
 // Coloque sua imagem na pasta /public e troque o nome abaixo
 // ============================================================
-const IMAGEM = '/monkey-finger.webp'
+const IMAGEM = '/monkey.png'
 
 export default function SurprisePage() {
   const navigate = useNavigate()
