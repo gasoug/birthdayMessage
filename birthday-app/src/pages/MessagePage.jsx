@@ -16,7 +16,6 @@ const ROTEIRO = [
   { t: 'pause', ms: 800 },
 
   { t: 'type', text: 'Oi, ' },
-  // ← troque "Ana" pelo nome da pessoa
   { t: 'type', text: 'Bruna' },
   { t: 'type', text: '!' },
 
@@ -25,16 +24,11 @@ const ROTEIRO = [
   { t: 'pause', ms: 1000 },
 
   { t: 'type', text: 'Espero que você consiga aproveitar ao máximo o seu dia e que ele seja tão incrível quanto você — embora eu saiba que poucas coisas podem ser invríveis assim — ' },
-
-  { t: 'newline' },
-  { t: 'newline' },
   { t: 'pause', ms: 2200 },
-
-  { t: 'type', text: 'agradeça por me ter na sua vida por tanto tempo' },  // typo: pesssoa (7 chars)
+  { t: 'type', text: 'agradeça sempre por me ter na sua vida' },  // typo: pesssoa (7 chars)
   { t: 'pause', ms: 500 },
-  { t: 'backspace', count: 47 },
-  { t: 'type', text: 'agradeço por me fazer querer não ser menos do q' },  
-  { t: 'type', text: 'ue a forma que sou aos seus olhos.' },
+  { t: 'backspace', count: 38 },
+  { t: 'type', text: 'agradeço por me fazer querer não ser menos do que a forma que sou aos seus olhos.' },  
 
   { t: 'newline' },
   { t: 'newline' },
@@ -44,7 +38,7 @@ const ROTEIRO = [
   { t: 'type', text: 'paranóias' },
   { t: 'pause', ms: 600 },
   { t: 'backspace', count: 9 },
-  { t: 'type', text: 'conversas, momentos, risadas, desentendimentos e por ser tão' },
+  { t: 'type', text: 'conversas, momentos, risadas, desentendimentos e por ser tão ' },
   { t: 'type', text: 'doida às vezes' },
   { t: 'pause', ms: 600 },
   { t: 'backspace', count: 14 },
@@ -62,20 +56,21 @@ const ROTEIRO = [
 
   { t: 'newline' },
   { t: 'newline' },
-  { t: 'type', text: 'Que seus desejos e objetivos se realizem, e que você seja feliz da forma que almeja e merece neste novo ciclo. Que Deus venha te ' }, 
-  { t: 'type', text: 'ençaboar' },
+  { t: 'type', text: 'Que você permaneça sendo luz na vida das pessoas que te pertubam, ' }, 
   { t: 'pause', ms: 400 },
+  { t: 'backspace', count: 8 },
+  { t: 'type', text: 'cercam, que seus desejos e objetivos se realizem, e que você seja feliz da forma que almeja e além do que merece neste novo ciclo. Que Deus venha te '},
+  { t: 'type', text: 'ençaboar' },
+  { t: 'pause', ms: 500 },
   { t: 'backspace', count: 8 },
   { t: 'type', text: 'abençoar cada dia mais, hoje e sempre!' },
   { t: 'pause', ms: 1000 },
-
+  { t: 'newline' },
   { t: 'type', text: 'Feliz vida, Bruna 💜' },
 
   { t: 'pause', ms: 600 },
   { t: 'done' },
 ]
-
-// ─── Motor de digitação ───────────────────────────────────────
 
 function wait(ms) {
   return new Promise((r) => setTimeout(r, ms))
