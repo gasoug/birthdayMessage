@@ -55,7 +55,7 @@ export default function QRPage() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Cole aqui a URL onde está hospedado..."
+              placeholder="birthday-message-cj5e.vercel.app"
             />
             <button className={styles.btn} onClick={handleGenerate}>
               Gerar

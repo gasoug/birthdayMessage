@@ -17,56 +17,59 @@ const ROTEIRO = [
 
   { t: 'type', text: 'Oi, ' },
   // ← troque "Ana" pelo nome da pessoa
-  { t: 'type', text: 'Ana' },
+  { t: 'type', text: 'Bruna' },
   { t: 'type', text: '!' },
 
   { t: 'newline' },
   { t: 'newline' },
   { t: 'pause', ms: 1000 },
 
-  { t: 'type', text: 'Hoje vim aqui te dizer uma coisa...' },
+  { t: 'type', text: 'Espero que você consiga aproveitar ao máximo o seu dia e que ele seja tão incrível quanto você — embora eu saiba que poucas coisas podem ser invríveis assim — ' },
 
   { t: 'newline' },
   { t: 'newline' },
   { t: 'pause', ms: 2200 },
 
-  { t: 'type', text: 'Você é uma pesssoa' },  // typo: pesssoa (7 chars)
+  { t: 'type', text: 'agradeça por me ter na sua vida por tanto tempo' },  // typo: pesssoa (7 chars)
   { t: 'pause', ms: 500 },
-  { t: 'backspace', count: 7 },
-  { t: 'type', text: 'pessoa muito' },
-
-  { t: 'newline' },
-  { t: 'type', text: 'especial pra mim.' },
+  { t: 'backspace', count: 47 },
+  { t: 'type', text: 'agradeço por me fazer querer não ser menos do q' },  
+  { t: 'type', text: 'ue a forma que sou aos seus olhos.' },
 
   { t: 'newline' },
   { t: 'newline' },
   { t: 'pause', ms: 1400 },
 
-  { t: 'type', text: 'Que esse novo ciclo seja cheio' },
-  { t: 'newline' },
-  { t: 'type', text: 'de tudo que você ' },
-  { t: 'type', text: 'mereçe' },  // typo: mereçe
+  { t: 'type', text: 'Obrigado pelas ' },    
+  { t: 'type', text: 'paranóias' },
   { t: 'pause', ms: 600 },
-  { t: 'backspace', count: 6 },
-  { t: 'type', text: 'merece.' },
+  { t: 'backspace', count: 9 },
+  { t: 'type', text: 'conversas, momentos, risadas, desentendimentos e por ser tão' },
+  { t: 'type', text: 'doida às vezes' },
+  { t: 'pause', ms: 600 },
+  { t: 'backspace', count: 14 },
+  { t: 'type', text: 'importante pra mim.' },
 
   { t: 'newline' },
   { t: 'newline' },
   { t: 'pause', ms: 1200 },
 
-  { t: 'type', text: 'Obrigado por existir e tornar' },
-  { t: 'newline' },
-  { t: 'type', text: 'meus dias ' },
-  { t: 'type', text: 'amis ' },   // typo: amis
+  { t: 'type', text: 'Quando se sentir incapaz ou quando pensamentos ruins sobre você surgirem, lembre-se de tudo que o que já superou, do que é essencial pra você e entenda que sim, você é e sempre foi muito ' },  
+  { t: 'type', text: 'foda ' },
   { t: 'pause', ms: 400 },
-  { t: 'backspace', count: 5 },
-  { t: 'type', text: 'mais felizes.' },
+  { t: 'backspace', count: 4 },
+  { t: 'type', text: 'capaz.' },
 
   { t: 'newline' },
   { t: 'newline' },
+  { t: 'type', text: 'Que seus desejos e objetivos se realizem, e que você seja feliz da forma que almeja e merece neste novo ciclo. Que Deus venha te ' }, 
+  { t: 'type', text: 'ençaboar' },
+  { t: 'pause', ms: 400 },
+  { t: 'backspace', count: 8 },
+  { t: 'type', text: 'abençoar cada dia mais, hoje e sempre!' },
   { t: 'pause', ms: 1000 },
 
-  { t: 'type', text: 'Feliz aniversário! 🎉' },
+  { t: 'type', text: 'Feliz vida, Bruna 💜' },
 
   { t: 'pause', ms: 600 },
   { t: 'done' },

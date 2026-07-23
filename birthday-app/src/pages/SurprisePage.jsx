@@ -6,7 +6,7 @@ import styles from './SurprisePage.module.css'
 // PERSONALIZE AQUI
 // Coloque sua imagem na pasta /public e troque o nome abaixo
 // ============================================================
-const IMAGEM = '/surprise.jpg'
+const IMAGEM = '/monkey-finger.webp'
 
 export default function SurprisePage() {
   const navigate = useNavigate()
@@ -43,7 +43,7 @@ export default function SurprisePage() {
 
       {/* Dica que aparece depois da revelação */}
       <div className={styles.tapHint}>
-        <span>Toque para continuar</span>
+        <span>BRINCADEIRA, toca na tela de novo</span>
         <span className={styles.sparkle}>✨</span>
       </div>
     </div>
