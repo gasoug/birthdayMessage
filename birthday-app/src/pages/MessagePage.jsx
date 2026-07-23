@@ -25,8 +25,8 @@ const ROTEIRO = [
 
   { t: 'type', text: 'Espero que você consiga aproveitar ao máximo o seu dia e que ele seja tão incrível quanto você — embora eu saiba que poucas coisas podem ser invríveis assim — ' },
   { t: 'pause', ms: 2200 },
-  { t: 'type', text: 'agradeça sempre por me ter na sua vida' },  // typo: pesssoa (7 chars)
-  { t: 'pause', ms: 500 },
+  { t: 'type', text: 'agradeça sempre por me ter na sua vida' },  
+  { t: 'pause', ms: 1000 },
   { t: 'backspace', count: 38 },
   { t: 'type', text: 'agradeço por me fazer querer não ser menos do que a forma que sou aos seus olhos.' },  
 
@@ -39,16 +39,20 @@ const ROTEIRO = [
   { t: 'pause', ms: 600 },
   { t: 'backspace', count: 9 },
   { t: 'type', text: 'conversas, momentos, risadas, desentendimentos e por ser tão ' },
-  { t: 'type', text: 'doida às vezes' },
-  { t: 'pause', ms: 600 },
-  { t: 'backspace', count: 14 },
-  { t: 'type', text: 'importante pra mim e uma ótima amiga' },
+  { t: 'type', text: 'perturbada' },
+  { t: 'pause', ms: 800 },
+  { t: 'backspace', count: 10 },
+  { t: 'type', text: 'autista' },
+  { t: 'pause', ms: 800 },
+  { t: 'backspace', count: 7 },
+  { t: 'type', text: 'importante pra mim e uma ótima amiga.' },
 
   { t: 'newline' },
   { t: 'newline' },
-  { t: 'pause', ms: 1200 },
+  { t: 'pause', ms: 1000 },
 
   { t: 'type', text: 'Quando se sentir incapaz ou quando pensamentos ruins sobre você surgirem, ignora!' },  
+  { t: 'pause', ms: 800 },
   { t: 'backspace', count: 7 },
   { t: 'type', text: 'lembre-se de tudo que já superou, do que é essencial pra você e entenda que sim, você é e sempre foi muito capaz.' },  
 
@@ -58,7 +62,7 @@ const ROTEIRO = [
   { t: 'pause', ms: 400 },
   { t: 'backspace', count: 10 },
   { t: 'type', text: 'cercam, que seus desejos e objetivos se realizem, e que você seja feliz da forma que almeja e além do que merece neste novo ciclo. Que Deus te ençaboe.'},  
-  { t: 'pause', ms: 500 },
+  { t: 'pause', ms: 800 },
   { t: 'backspace', count: 11 },
   { t: 'type', text: 'venha te abençoar cada dia mais, hoje e sempre!' },
   { t: 'pause', ms: 1000 },
@@ -67,7 +71,7 @@ const ROTEIRO = [
   { t: 'newline' },
   { t: 'type', text: 'Pode curtir sua festa agora 👽' }, 
   { t: 'backspace', count: 30 },
-  { t: 'pause', ms: 600 },
+  { t: 'pause', ms: 800 },
   { t: 'done' },
 ]
 
