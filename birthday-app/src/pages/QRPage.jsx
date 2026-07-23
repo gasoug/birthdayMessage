@@ -31,7 +31,7 @@ export default function QRPage() {
       <div className={styles.card}>
         <div className={styles.header}>
           <div className={styles.icon}>🎂</div>
-          <h1 className={styles.title}>Repi bardei tiu iu</h1>          
+          <h1 className={styles.title}>Feliz Aniversário</h1>          
         </div>
 
         <div className={styles.qrWrapper}>
@@ -47,10 +47,7 @@ export default function QRPage() {
               <div className={styles.qrLogo}>B</div>
             </div>
           )}
-        </div>
-
-        
-        
+        </div>                
       </div>
     </div>
   )

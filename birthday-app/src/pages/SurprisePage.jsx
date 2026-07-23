@@ -39,7 +39,8 @@ export default function SurprisePage() {
 
       {/* Dica que aparece depois da revelação */}
       <div className={styles.tapHint}>
-        <span>BRINCADEIRA, toca na tela de novo</span>
+        <span>BRINCADEIRA</span>
+        <span><p>Toca na tela de novo</p></span>
         <span className={styles.sparkle}>😊</span>
       </div>
     </div>

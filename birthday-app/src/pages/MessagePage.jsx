@@ -67,11 +67,7 @@ const ROTEIRO = [
   { t: 'type', text: 'venha te abençoar cada dia mais, hoje e sempre!' },
   { t: 'pause', ms: 1000 },
   { t: 'newline' },
-  { t: 'type', text: 'Feliz vida, Bruna 💜' },
-  { t: 'newline' },
-  { t: 'type', text: 'Pode curtir sua festa agora 👽' }, 
-  { t: 'backspace', count: 30 },
-  { t: 'pause', ms: 800 },
+  { t: 'type', text: 'Feliz vida, Bruna 💜' },      
   { t: 'done' },
 ]
 
@@ -197,7 +193,7 @@ export default function MessagePage() {
 
       {done && (
         <div className={styles.footer}>
-          Feito com muito esforço e dedicação 👨🏻‍💻
+          O cara que faz programas 👨🏻‍💻
         </div>
       )}
     </div>
