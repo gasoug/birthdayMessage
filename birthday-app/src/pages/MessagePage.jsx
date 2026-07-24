@@ -53,7 +53,7 @@ const ROTEIRO = [
   { t: 'pause', ms: 1000 },
 
   { t: 'type', text: 'Quando pensamentos ruins sobre você surgirem e se sentir incapaz, ' },  
-  { t: 'type', text: 'lembre-se de tudo que já superou, do que é essencial pra você e entenda que você é, e sempre foi muito capaz de enfrentar tudo que tem medo de errar.' },  
+  { t: 'type', text: 'lembre-se de tudo que já superou, do que é essencial pra você e entenda que você é, e sempre foi muito capaz de enfrentar tudo que tem medo de errar. (assim mesmo sem gracinha 😤)' },  
 
   { t: 'newline' },
   { t: 'newline' },
@@ -64,7 +64,7 @@ const ROTEIRO = [
   { t: 'newline' },
   { t: 'type', text: 'Que Deus te ençaboe 🙏🏼'},  
   { t: 'pause', ms: 800 },
-  { t: 'backspace', count: 12 },
+  { t: 'backspace', count: 13 },
   { t: 'type', text: 'venha te abençoar cada dia mais, hoje e sempre! 🙏🏼' },
   { t: 'pause', ms: 1000 },
   { t: 'newline' },
