@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import styles from './PasswordPage.module.css'
 
-const SENHA = '260795anurb'
+const SENHA = import.meta.env.VITE_SENHA
 
 export default function PasswordPage() {
   const [valor, setValor] = useState('')
