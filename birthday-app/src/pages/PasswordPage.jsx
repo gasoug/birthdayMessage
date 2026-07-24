@@ -33,7 +33,7 @@ export default function PasswordPage() {
     <div className={`${styles.page} ${saindo ? styles.saindo : ''}`}>
       <div className={styles.box}>
         <div className={styles.lockIcon}>🔒</div>
-        <p className={styles.hint}>Esta mensagem é só pra você</p>
+        <p className={styles.hint}>Esta mensagem é só pra você 🤫</p>
 
         <div className={`${styles.inputWrap} ${erro ? styles.shake : ''}`}>
           <input
